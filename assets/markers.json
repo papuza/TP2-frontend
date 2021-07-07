@@ -1,0 +1,218 @@
+[
+  {
+    "id": 1,
+    "nombre": "Centro Cultural Kirchner",
+    "descripcion": "El CCK, antes denominado Centro Cultural Kirchner, es un espacio moderno, amplio y diverso dedicado a las artes visuales y escénicas, a la educación y a demás manifestaciones artísticas. Tiene más de 100 mil metros cuadrados y la envergadura de los centros culturales más importantes del mundo.",
+    "lat": -34.60330279799898,
+    "lng": -58.36921411776933,
+    "type": "Centros culturales"
+  },
+  {
+    "id": 4,
+    "nombre": "Centro Cultural Borges",
+    "descripcion": "El Centro Cultural Borges es un espacio dedicado a las artes en el interior del shopping Galerías Pacífico. Inaugurado en 1995, su nombre homenajea a uno de los grandes escritores de la historia argentina. Ocupa un espacio de más de 10.000 m2 y aloja exposiciones, espectáculos, seminarios, conferencias, talleres y eventos. Tiene un cine y muestras itinerantes que van desde las artes visuales hasta el tango.",
+    "lat": -34.59952558506325,
+    "lng": -58.37436487302333,
+    "type": "Centros culturales"
+  },
+  {
+    "id": 5,
+    "nombre": "Centro Cultural de la Cooperación",
+    "descripcion": "El Centro Cultural de la Cooperación Floreal Gorini es un espacio de interacción cultural, social y política de ideología de izquierda. Allí hay una biblioteca y se realizan talleres y cursos. El movimiento popular propone la asociación de forma voluntaria donde todos los integrantes comparten los ingresos. El nombre del centro homenajea a uno de los grandes exponentes del cooperativismo argentino. Por el centro estuvieron los expresidentes de Venezuela y Ecuador, Hugo Chávez y Rafael Correa, cuando visitaron Argentina.",
+    "lat": -34.60382470918705,
+    "lng": -58.38859340226248,
+    "type": "Centros culturales"
+  },
+  {
+    "id": 7,
+    "nombre": "Centro Cultural Recoleta",
+    "descripcion": "El Centro Cultural Recoleta (en un comienzo llamado Centro Cultural Ciudad de Buenos Aires) es un centro de exposiciones ubicado en el barrio de Recoleta, en la Ciudad de Buenos Aires. Fue declarado Monumento Histórico Nacional y forma parte de un polo de atractivos turísticos y de esparcimiento, junto al Cementerio de la Recoleta y la Plaza Intendente Alvear, mal llamada Plaza Francia(Esta se encuentra donde se alza el Monumento de Francia a la Argentina, frente al Museo Nacional de Bellas Artes). Ocupa el edificio del antiguo Asilo General Viamonte, y se trata de uno de los espacios culturales de mayor importancia de la ciudad.",
+    "lat": -34.586265,
+    "lng": -58.391789,
+    "type": "Centros culturales"
+  },
+  {
+    "id": 2,
+    "nombre": "Caminito",
+    "descripcion": "Caminito es uno de los paseos más emblemáticos de la ciudad y de los atractivos imperdibles para quienes lo visitan. Con sus conventillos típicos de chapa del barrio de La Boca, que muestran sus paredes pintadas de distintos colores, es también un museo a cielo abierto de casi 150 metros de longitud. Su trazado sinuoso se debe a que sigue el cauce de un arroyo que fluyó hasta principios del siglo XX. La zona era conocido popularmente como 'Puntin' (diminutivo de 'puente' en dialecto genovés ).",
+    "lat": -34.63906959382149,
+    "lng": -58.36273434603349,
+    "type": "Museos de arte"
+  },
+  {
+    "id": 3,
+    "nombre": "Colección de Arte Amalia Lacroze de Fortabat",
+    "descripcion": "Esta importante colección privada de arte (inaugurada en 2008 y reabierta en 2012) posee más de 150 obras de reconocidos artistas internacionales como Rodin, Warhol, Turner, Dalí y Blanes, así como de artistas argentinos tales como Badii, Berni, Quinquela Martín, Noé, Pérez Celis, Fader, Soldi y Xul Solar, entre otros.",
+    "lat": -34.599048601733074,
+    "lng": -58.36505173058523,
+    "type": "Museos de arte"
+  },
+  {
+    "id": 6,
+    "nombre": "Museo Casa de Rogelio Yrurtia",
+    "descripcion": "Esta casona de estilo neocolonial fue vivienda y taller del escultor argentino Rogelio Yrurtia y de su esposa, la pintora Lía Correa Morales. El matrimonio donó la casa y su colección de arte a la Ciudad en 1942. Yrurtia fue autor de importantes monumentos, como 'Canto al Trabajo' (Av.Paseo Colón 800); el monumento a Manuel Dorrego (Suipacha y Tucumán); el Mausoleo de Bernardino Rivadavia (Plaza Miserere); y 'La Justicia' (hall central del Palacio de Justicia), entre otros. El museo exhibe bocetos y estudios, obras en bronce y yeso, pinturas y mobiliario del artista.",
+    "lat": -34.55705160684036,
+    "lng": -58.4554981036013,
+    "type": "Museos de arte"
+  },
+  {
+    "id": 8,
+    "nombre": "Museo de Arte Contemporáneo",
+    "descripcion": "Fue fundado el 1 de septiembre de 2012 con el propósito de difundir expresiones artísticas actuales del escenario nacional e internacional. Su amplia colección explora propuestas y posibilidades de nuevos lenguajes visuales, entre ellos el de la vanguardia de la abstracción geométrica, sobre todo latinoamericana. El Museo apunta a impulsar el dinamismo cultural argentino y a generar espacios de diálogo y reflexión sobre el arte contemporáneo, en un espacio de encuentro entre artistas, curadores, investigadores, estudiantes y aficionados que se ven unidos por un mismo interés en las artes visuales.",
+    "lat": -34.6217785431529,
+    "lng": -58.370268625064234,
+    "type": "Museos de arte"
+  },
+  {
+    "id": 9,
+    "nombre": "Museo Nacional de Bellas Artes",
+    "descripcion": "El Museo Nacional de Bellas Artes (MNBA) es un museo y una Galería de arte argentino con sedes en la Ciudad de Buenos Aires y en la ciudad de Neuquén (MNBA Neuquén). Tiene el mayor patrimonio artístico del país y es uno de los principales de América Latina.",
+    "lat": -34.583836,
+    "lng": -58.392924,
+    "type": "Museos de arte"
+  },
+  {
+    "id": 10,
+    "nombre": "Museo Fotográfico Simik",
+    "descripcion": "El Museo comenzó a funcionar como tal en febrero de 2002, con la inauguración de su primera vitrina. A este le brinda espacio en su local e instalaciones Bar Palacio. Uno de los objetivos de la creación del Museo es la transmisión didáctica, visual y técnica de la evolución de la fotografía y las cámaras fotográficas desde sus inicios, con el objeto, que en forma libre y gratuita, cualquier persona pueda disfrutar de él. Fue creado y es dirigido por Alejandro Simik, que es fotógrafo publicitario.",
+    "lat": -34.58418512112358,
+    "lng": -58.45349151154077,
+    "type": "Museos de ciencia"
+  },
+  {
+    "id": 11,
+    "nombre": "Museo Participativo de Ciencias",
+    "descripcion": "Fundado en el año 1988, este museo está dedicado a la divulgación de las ciencias de una manera lúdica y participativa. Si bien es abierto al público de todas las edades, el museo resulta muy atractivo para los chicos, porque fomenta su curiosidad natural por descubrir y conocer más sobre las ciencias. El museo funciona dentro del Centro Cultural Recoleta y ofrece exhibiciones interactivas que incentivan el aprendizaje a través del juego. Posee varias salas temáticas: Percepción Visual (relacionada con las ilusiones ópticas), Mecánica (leyes y principios que rigen el mundo mecánico), Tech (todo lo relacionado con la tecnología), Fuerzas de la Naturaleza (vientos, agua y otros fenómenos naturales), Y se hizo la luz (el universo de la luz), No sigas la corriente (electricidad), Arte (dedicada a la historia del arte), La mesa está servida (origen y utilidad de los alimentos), No me mates matemática y Música, ondas y sonido.",
+    "lat": -34.58615399787335,
+    "lng": -58.39164173058557,
+    "type": "Museos de ciencia"
+  },
+  {
+    "id": 12,
+    "nombre": "Buque Museo A.R.A. Fragata Sarmiento",
+    "descripcion": "Esta fragata, botada en 1897, fue una de las más adelantadas de su época. Cuenta con un casco de acero forrado en madera y chapa de cobre, tres mástiles y un imponente mascarón de proa con la efigie de la República Argentina. La nave fue bautizada en honor al fundador de la Escuela Naval Argentina, Domingo Faustino Sarmiento. Entre 1889 y 1938 llevó a cabo 37 viajes alrededor del mundo y luego funcionó como buque de prácticas en aguas nacionales hasta 1960. Dos años más tarde fue declarada Monumento Histórico Nacional y museo de los viajes y misiones oficiales que realizó. La Fragata Sarmiento representó a la Argentina en numerosos eventos protocolares, tales como la coronación de Eduardo VII del Reino Unido, en 1902; los festejos del Centenario de la Independencia de México, en 1910; la apertura del Canal de Panamá, en 1914; y la inauguración de la estatua del general San Martín en Boulogne Sur Mer, Francia, en 1909.",
+    "lat": -34.608759112684325,
+    "lng": -58.36560171524168,
+    "type": "Museos de las fuerzas armadas"
+  },
+  {
+    "id": 13,
+    "nombre": "Buque Museo Corbeta Uruguay",
+    "descripcion": "Es la nave argentina más antigua que aún se mantiene a flote. Fue construida en Inglaterra en 1874 y su casco es de acero forrado en madera. Entre 1877 y 1880 fue buque escuela de la Armada Argentina. Egresaron de ella las tres primeras promociones de la Escuela Naval creada por Domingo Faustino Sarmiento. Integró la expedición del Comodoro Py, que reafirmó la soberanía argentina en la Patagonia. Su hazaña de renombre mundial ocurrió en 1903, cuando al mando del capitán Julián Irízar, y capeando terribles temporales, rescató a los integrantes de la expedición sueca liderada por Otto Nordenskjöld, cuyo buque, el 'Antartic', había naufragado en los hielos del Polo Sur. Cumplió también funciones científicas, de transporte y apoyo a varias misiones de observación y estudio en las costas del Sur argentino. En 1960 se destinó a museo, y años más tarde fue declarada Monumento Histórico Nacional.",
+    "lat": -34.6039064544909,
+    "lng": -58.36622273058505,
+    "type": "Museos de las fuerzas armadas"
+  },
+  {
+    "id": 14,
+    "nombre": "Museo Argentinos Juniors",
+    "descripcion": "Inaugurado en el año 2009, la muestra que se encuentra dentro del estadio ubicado en el barrio de la Paternal posee recuerdos y objetos de la institución, gran parte donados por los mismos hinchas del club.",
+    "lat": -34.606197664788844,
+    "lng": -58.472694706719466,
+    "type": "Museos deportivos"
+  },
+  {
+    "id": 15,
+    "nombre": "Museo de la Pasión Boquense",
+    "descripcion": "Para los apasionados del fútbol, el Museo de la Pasión Boquense constituye una parada imperdible. Ubicado debajo de una de las tribunas del Club Atlético Boca Juniors, este espacio ofrece la oportunidad de revivir la rica historia de más de 100 años del club y, como yapa, recorrer el famoso estadio conocido mundialmente como la Bombonera. La visita resulta un ámbito interactivo donde el visitante, además de contemplar las camisetas de todas las épocas del club o los trofeos obtenidos, podrá sentirse actor y protagonista de la pasión, gracias a avanzadas técnicas de exhibición y trucos escénicos y lumínicos que ofrecen sus exhibiciones multimedia. A la memorabilia deportiva se le suma una sección dedicada a Diego Armando Maradona, fotografías de las giras mundiales, además de las tres estatuas gigantes en homenaje a los ídolos del club de la rivera Diego Armando Maradona, Juan Román Riquelme y Martín Palermo.",
+    "lat": -34.636303031973604,
+    "lng": -58.36445610174832,
+    "type": "Museos deportivos"
+  },
+  {
+    "id": 16,
+    "nombre": "Museo Jacobo Urso",
+    "descripcion": "Ubicado en el estadio del Club San Lorenzo, este pequeño museo alberga una colección de trofeos, camisetas y diversos objetos de los jugadores que brillaron en la institución de Boedo, de quién es fanático el papa Francisco.",
+    "lat": -34.651181890961425,
+    "lng": -58.437098404414314,
+    "type": "Museos deportivos"
+  },
+  {
+    "id": 17,
+    "nombre": "Museo River",
+    "descripcion": "River cuenta con uno de los museos deportivos más grandes del mundo, con una superficie cubierta de 3.500 metros cuadrados donde se exhibe la historia del club. Entre sus atracciones, se destacan un espectáculo audiovisual de 360°, el “Túnel del Tiempo” y una gran escenografía que homenajea a “La máquina”, el célebre equipo de River de la década de 1940.",
+    "lat": -34.54641070390221,
+    "lng": -58.448418128848644,
+    "type": "Museos deportivos"
+  },
+  {
+    "id": 18,
+    "nombre": "Centro Ana Frank",
+    "descripcion": "El Centro Ana Frank Argentina abrió sus puertas en el año 2009, como representante de la Anne Frank House en América Latina. Es la única institución en la región que posee un museo y sala de teatro que buscan salvaguardar la memoria de la joven escritora, víctima del régimen nazi, Ana Frank. La misión del espacio consiste en reflexionar sobre el perjuicio del antisemitismo, el racismo y la discriminación, resaltando los valores de la libertad y los derechos humanos, con el fin de lograr una sociedad más inclusiva. Para alcanzar este objetivo, el Centro ofrece diversas propuestas para todo tipo de público, que promueven el aprendizaje y la expresión bajo el marco de una pedagogía de la esperanza. Además, todas las actividades tienen su formato itinerante, con el fin de llevar el legado de Ana Frank a diversos puntos del país.",
+    "lat": -34.56267878115655,
+    "lng": -58.47074017117784,
+    "type": "Museos históricos y etnográficos"
+  },
+  {
+    "id": 19,
+    "nombre": "El Cabildo",
+    "descripcion": "El Cabildo de Buenos Aires, sede de la administración colonial, ocupa el mismo lugar desde 1580, pero su edificio sufrió sucesivas modificaciones. Las primeras referencias del Cabildo provienen de principios del siglo XVII. Para 1608, tenía paredes de adobe y techo de paja. El interior se encontraba dividido en dos: un salón para reuniones y otro que funcionaba como cárcel. Las tejas llegaron dos años más tarde y, para mediados de siglo, el Cabildo tenía balcón y torres de madera y barro. Para 1725, el edificio estaba en muy mal estado y se decidió demolerlo. A cambio comenzó a levantarse uno nuevo, a partir de un proyecto del italiano Andrés Blanqui. Así, comenzaba a tomar forma el Cabildo tal como lo conocemos hoy.",
+    "lat": -34.60859723704646,
+    "lng": -58.37377061510032,
+    "type": "Museos históricos y etnográficos"
+  },
+  {
+    "id": 20,
+    "nombre": "Museo Casa Carlos Gardel",
+    "descripcion": "La casa en la que vivió el cantor Carlos Gardel en sus últimos años en Buenos Aires es hoy un museo que hay que visitar para conocer más sobre uno de los mayores artistas argentinos reconocido en todo el mundo. El museo es un lugar único para acercarse a la vida de Gardel, ya que cuenta con una colección de objetos personales del artista y ejemplos de su obra.",
+    "lat": -34.60152688245477,
+    "lng": -58.40784804418806,
+    "type": "Museos históricos y etnográficos"
+  },
+  {
+    "id": 22,
+    "nombre": "Museo de Arquitectura y Diseño",
+    "descripcion": "Fue creado por la Sociedad Central de Arquitectos a fines de 2000, con el objetivo de preservar, exhibir y difundir el patrimonio arquitectónico y urbano nacional e internacional. Está ubicado en la ex torre de agua del complejo ferroviario de Retiro. El edificio, construido en 1915, es un ejemplo destacable de la arquitectura ferroviaria desarrollada en Argentina. La superficie cubierta, de 280 m², se distribuye en cuatro plantas.",
+    "lat": -34.58618678736591,
+    "lng": -58.3851616730237,
+    "type": "Museos históricos y etnográficos"
+  },
+  {
+    "id": 23,
+    "nombre": "Margen del Mundo",
+    "descripcion": "Por iniciativa del periodista Luis Majul nació Margen del Mundo, un museo dedicado exclusivamente al periodismo en la Argentina. El Museo está compuesto por varias secciones. Tiene un primer sector 'envolvente', donde se proyectan varios videos en simultáneo para empaparse de hitos de la historia argentina de los últimos 40 años.",
+    "lat": -34.59669902635912,
+    "lng": -58.45683267302344,
+    "type": "Otros museos"
+  },
+  {
+    "id": 24,
+    "nombre": "Museo Criollo de los Corrales",
+    "descripcion": "El museo, declarado Monumento Histórico Nacional, es la expresión de la cultura criolla dentro de un barrio, Mataderos, con mucha tradición rural y de campo, ya que allí se instaló el matadero de ganado vacuno. Es ideal visitarlo los domingos, para combinar su visita con un paseo por la Feria de Mataderos, que combina más de 300 puestos de venta de artesanías gauchesca con espectáculos folclóricos, carrera de sortijas, entre otras propuestas",
+    "lat": -34.66255023559093,
+    "lng": -58.49985441719766,
+    "type": "Otros museos"
+  },
+  {
+    "id": 25,
+    "nombre": "Museo de Calcos 'Ernesto de La Cárcova'",
+    "descripcion": "El Museo de Calcos y Escultura Comparada 'Ernesto de La Cárcova', está ubicado en las cercanías de la Reserva Ecológica, en el barrio de Puerto Madero, y es considerado el museo más importante de su género en Sudamérica. Exhibe piezas que representan las manifestaciones escultóricas más destacadas de la cultura sumeria hasta el Renacimiento, tanto en relieve como en escultura de bulto. Cuenta con un conjunto de reproducciones de obras de la América Prehispánica y con una notable colección de esculturas originales de artistas argentinos.",
+    "lat": -34.618107752405564,
+    "lng": -58.3563852153525,
+    "type": "Otros museos"
+  },
+  {
+    "id": 26,
+    "nombre": "Museo de la Legislatura Porteña",
+    "descripcion": "El Museo de la Legislatura fue inaugurado el 2 de diciembre del 2015 luego de más de un año de investigación, restauración y puesta en valor patrimonial de las galerías superiores de los salones Dorado y San Martín de la Legislatura. Tiene dos ejes temáticos: en primer lugar el histórico, que comienza con el Cabildo como antecedente de la participación política de la ciudad y luego el arquitectónico, que describe las especiales características de esta Casa de Ley.",
+    "lat": -34.60937176838882,
+    "lng": -58.37465784418794,
+    "type": "Otros museos"
+  },
+  {
+    "id": 27,
+    "nombre": "Museo de la Memoria (ex ESMA)",
+    "descripcion": "Actualmente el sitio en el que se encontraba la embajada de Israel ha sido preservado como un sitio para la memoria. Allí se ha preservado una parte del muro original de la embajada; los nombres de los Fallecidos han sido colocados en una placa y se plantaron dos líneas de tilos, cada uno de ellos simbolizando de una manera firme de recordar a cada una de las personas fallecidas. También allí se encuentra el monumento a las víctimas y al Estado de Israel por el atentado. La plaza fue inaugurada el 17 de marzo del año 2000.\n\nCada 17 de marzo a las 15:00, se recuerda a las víctimas del atentado en esta plaza de la memoria.\n\nLa embajada hoy en día funciona en el décimo piso de la Torre La Buenos Aires, en la Avenida de Mayo.",
+    "lat": -34.591523,
+    "lng": -58.380422,
+    "type": "Museos históricos y etnográficos"
+  },
+  {
+    "id": 39,
+    "nombre": "Planetario Galileo Galilei",
+    "descripcion": "El Planetario Galileo Galilei está ubicado en la intersección de Avenida General Sarmiento y Belisario Roldán, dentro del Parque Tres de Febrero, en el barrio de Palermo, en la ciudad de Buenos Aires, Argentina.\n\nSu cúpula tiene 20 m de diámetro. Sobre ella pueden llegar a reproducirse 8900 estrellas fijas, constelaciones y nebulosas.\n\nSu primera función se realizó en junio de 1967 y en 2011 sufrió una serie de reformas de gran importancia.",
+    "lat": -34.569641,
+    "lng": -58.411647,
+    "type": "Museos de ciencias"
+  }
+]

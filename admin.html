@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./assets/css/styles.css">
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+  <title>Mapa</title>
+</head>
+
+<body>
+  <div id="form-edit-item" class="ocultar">
+    <h2 id="form-title">Editar museo</h2>
+    <form id="formedit" class="form" method="POST">
+      <i id="close-edit-form" class="fas fa-times-circle fa-3x"></i>
+      <div id="form-1strow">
+        <div class="inputs">
+          <div>
+            <input id="nombre" name="nombre" type="text" class="input" placeholder="Nombre">
+          </div>
+          <div>
+            <input id="lat" name="lat" type="number" class="input" placeholder="Latitud">
+          </div>
+          <div>
+            <input id="lng" type="number" name="lng" class="input" placeholder="Longitud">
+          </div>
+        </div>
+      </div>
+      <div class="form-msg">
+        <textarea id="descripcion" name="descripcion" placeholder="Descripcion" class="textarea"></textarea>
+      </div>
+
+      <select name="categoria" id="categoriaEdit">
+        <option value="disabled" disabled selected>Categoria</option>
+        <option value="centrosculturales">Centros culturales</option>
+        <option value="museosdearte">Museos de arte</option>
+        <option value="museosdeciencia">Museos de ciencia</option>
+        <option value="museosdelasfuerzasarmadas">Museos de las fuerzas armadas</option>
+        <option value="museosdeportivos">Museos deportivos</option>
+        <option value="museoshistóricosyetnográficos">Museos históricos y etnográficos</option>
+        <option value="otrosmuseos">Otros museos</option>
+      </select>
+      <input type="hidden" name="_id" class="id_edit" value="">
+      <input type="submit" name="submit" value="Modificar" class="formedit-btn">
+    </form>
+    </section>
+  </div>
+
+
+
+  <div id="form-add-item" class="ocultar">
+    <h2 id="form-title">Agregar museo</h2>
+    <form id="form" class="form" action="http://localhost:3000/markers" method="POST">
+      <i id="close-form" class="fas fa-times-circle fa-3x"></i>
+      <div id="form-1strow">
+        <div class="inputs">
+          <div>
+            <input id="nombre" name="nombre" type="text" class="input" placeholder="Nombre">
+          </div>
+          <div>
+            <input id="lat" name="lat" type="number" class="input" placeholder="Latitud">
+          </div>
+          <div>
+            <input id="lng" type="number" name="lng" class="input" placeholder="Longitud">
+          </div>
+        </div>
+      </div>
+      <div class="form-msg">
+        <textarea id="descripcion" name="descripcion" placeholder="Descripcion" class="textarea"></textarea>
+      </div>
+      <select name="categoria" id="categoria">
+        <option value="disabled" disabled selected>Categoria</option>
+        <option value="centrosculturales">Centros culturales</option>
+        <option value="museosdearte">Museos de arte</option>
+        <option value="museosdeciencia">Museos de ciencia</option>
+        <option value="museosdelasfuerzasarmadas">Museos de las fuerzas armadas</option>
+        <option value="museosdeportivos">Museos deportivos</option>
+        <option value="museoshistóricosyetnográficos">Museos históricos y etnográficos</option>
+        <option value="otrosmuseos">Otros museos</option>
+      </select>
+      <input type="submit" value="Enviar" class="form-btn">
+    </form>
+    </section>
+  </div>
+  <div id="list-display">
+    <h2 id="list-title">Listado de museos</h2>
+    <div id="agregar-item-btn">
+      <p>Agregar museo</p>
+    </div>
+
+    <a id="volver-btn" href="index.html">Volver</a>
+
+    <div id="list-museos">
+    </div>
+  </div>
+
+  </div>
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+    integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.2/jquery.validate.min.js"
+    integrity="sha512-UdIMMlVx0HEynClOIFSyOrPggomfhBKJE28LKl8yR3ghkgugPnG6iLfRfHwushZl1MOPSY6TsuBDGPK2X4zYKg=="
+    crossorigin="anonymous"></script>
+  <script src="assets/js/admin.js"></script>
+
+</body>
+
+</html>

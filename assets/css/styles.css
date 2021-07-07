@@ -1,0 +1,461 @@
+body{padding: 0; margin: 0;}
+
+.ocultar{
+  display: none !important;
+}
+
+.mostrar{
+  display: flex !important;
+}
+
+/* ESTILOS DE MAPA */
+#map{width: 100%; height: 100vh;}
+
+/* ESTILOS DE BARRAS DE SROLL */
+::-webkit-scrollbar {
+  width: 20px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px rgba(253, 255, 133, 0.8);
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgba(253, 255, 133, 0.8);
+  border-radius: 10px;
+}
+
+/* ESTILOS DE CONTROLES DE ZOOM */
+.gm-style .controls.zoom-control {
+  height: auto;
+  display: flex;
+  flex-direction: row;
+}
+
+/* ESTILOS INFOWINDOW */
+.info_wrapper {
+  padding: 2% !important;
+  font-family: Montserrat;
+  border-radius: 20px;
+}
+
+.gm-style-iw-d{
+  overflow: visible !important;
+}
+
+.gm-style-iw, .gm-style-iw-c{
+  background-color: rgba(253, 255, 133, 0.8) !important;
+}
+
+.gm-ui-hover-effect{
+  top: 0 !important;
+  right: 0 !important;
+  width: auto !important;
+  height: auto !important;
+  padding: 10px;
+  background-color: white !important;
+}
+
+.gm-ui-hover-effect img{
+  width: 30px !important;
+  height: 30px !important;
+}
+
+/* ESTILOS BOTÓN ABRIR MENU (>) */
+.handleMenu{
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: auto;
+  padding: 50px 20px 50px 20px;
+  font-family: sans-serif;
+  font-size: 5rem;
+  background-color: rgba(0,0,0,.6);
+  color: white;
+  text-align: center;
+  border-radius: 0 15px 15px 0;
+  transition: left 0.7s;
+  cursor: pointer;
+}
+
+.handleMenu:hover{
+  background-color: wheat;
+  color: black;
+  transition: 0.7s;
+}
+
+/* ANIMACION PARA ABRIR MENU AL CLICKEAR */
+.checkbox{
+  display: none;
+}
+
+.checkbox:checked ~ .handleMenu{
+  left: 24%;
+  border-radius: 10px 0 0 10px;
+  transform: scale(-1, 1);
+}
+
+.checkbox:checked ~ #menu{
+  left: 0;
+}
+
+/* ESTILOS DE MENU */
+#menu{ 
+  position: absolute;
+  top:0;
+  left: -24%;
+  width: 20%;
+  height: 100vh;
+  padding: 0 2%;
+  font-family: Montserrat;
+  text-transform: uppercase;
+  background-color: rgba(0,0,0,.6);
+  color: white;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  transition: left 0.7s;
+  z-index: 1000;
+}
+
+#menu ul{
+  width: 100%;
+  padding-inline-start: 0px;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#menu ul li{
+  width: 100%;
+  padding: 5% 0 5% 0;
+  border-bottom: solid white 1px;
+  cursor: pointer;
+}
+
+#menu ul li:hover{
+  font-weight: bold;
+  background-color: rgba(235, 211, 166, 1);
+  color: rgb(117, 85, 25);
+  transition: 0.5s;
+}
+
+#list-btn{
+  width: 50%;
+  margin-top: 5%;
+  padding: 5%;
+  font-weight: bold;
+  text-decoration: none;
+  background-color: rgba(235, 211, 166, 0.4);
+  color: white;
+  border: solid white 3px;
+}
+
+#list-btn:hover{
+  font-weight: bold;
+  background-color: rgba(235, 211, 166, 1);
+  color: rgb(117, 85, 25);
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+/* FIN DE ESTILOS DE INDEX.HTML */
+
+/* INICIO DE ESTILOS DE ADMIN.HTML */
+
+/* ESTILO DE LISTA DE MUSEOS*/
+#list-display{
+  width: 100vw;
+  height: 100vh;
+  font-family: Montserrat;
+  color: white;
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/2/2c/Galer%C3%ADa_Museo_del_Carmen.jpg");
+  background-size: cover;
+  background-position: center center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#list-title, #form-title{
+  margin-top: 10vh;
+  font-size: 3em;
+  text-transform: uppercase;
+}
+
+#list-museos{
+  width: 80%;
+  margin-top: 5vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  overflow-y: scroll;
+}
+
+/* ESTILOS DE ITEM MUSEO */
+.item-list-museo{
+  width: 30%;
+  height: 60vh;
+  margin-bottom: 2%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 25px;
+  overflow: hidden;
+}
+
+.item-list-content{
+  height: 85%;
+  padding: 0 5%;
+  background-color: rgba(0,0,0,.8);
+  display: flex;
+  flex-direction: column;
+}
+
+.item-list-content h3{
+  margin: 0;
+  font-size: 1.5em;
+}
+
+.item-list-content p{
+  margin: 3% 0 0 0;
+  line-height: 1.8em;
+}
+
+.item-list-title{
+  padding-top: 5%;
+}
+
+.item-list-desc{
+  height: 60%;
+  overflow-x: hidden;
+}
+
+.item-data{
+  height: 30%;
+  padding-bottom: 5%;
+}
+
+.item-list-categ, .item-list-lat, .item-list-long, .item-list-title{
+  text-transform: uppercase;
+  color: rgba(253, 255, 133, 0.8);
+}
+
+/* ESTILOS BOTONES EDIT Y BORRAR */
+.edit-borrar-btns{
+  height: 15%;
+  width: 100%;
+  text-align: center;
+  text-transform: uppercase;
+  background-color: rgba(0,0,0,.8);
+  border-top: solid white 1px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.borrar-item-btn, .edit-item-btn{
+  width: 100%;
+  height: 100%;
+  padding: 0 5%;
+  color: rgba(253, 255, 133, 0.8);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: .5s;
+}
+
+.borrar-item-btn:hover, .edit-item-btn:hover{
+  font-weight: bold;
+  background-color: rgba(235, 211, 166, 1);
+  color: rgb(117, 85, 25);
+  transition: .5s;
+}
+
+/* ESTILOS BOTONES AGREGAR MUSEO Y VOLVER */
+#agregar-item-btn, #volver-btn{
+  position: absolute;
+  top: 10%;
+  width: 10%;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: center;
+  color: white;
+  border: solid white 1px;
+  border-radius: 15px; 
+  transition: .5s;
+}
+#agregar-item-btn{
+  right: 10vw;
+  width: 10%;
+  padding: 0.2%;
+}
+#volver-btn{
+  left: 12vw;
+  padding: 1% 0.2%;
+}
+
+#agregar-item-btn:hover, #volver-btn:hover{
+  font-weight: bold;
+  background-color: rgba(253, 255, 133, 0.8);
+  color: rgb(117, 85, 25);
+  cursor: pointer;
+  transition: .5s;
+}
+
+/* ESTILOS FORMULARIOS AGREGAR MUSEO Y EDITAR MUSEO */
+#form-add-item, #form-edit-item{
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  padding: 0;
+  font-family: Montserrat;
+  background-color: rgba(0,0,0,0.9);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 2;
+}
+
+.form{
+  position: relative;
+  width: 50vw;
+  height: 70vh;
+  padding: 3% 0% 0 0%;
+  background-color: rgba(0,0,0,0.9);
+  border-radius: 15px;
+  border: solid rgba(253, 255, 133, 0.8) 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.form-text{
+  margin-bottom: 3%;
+  font-size: 2em;
+  color: white;
+}
+
+#form-1strow{
+  width: 90%;
+  height: 40%;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
+/* ESTILOS BOTON CERRAR FORMULARIO */
+#close-form, #close-edit-form{
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  border-radius: 50%;
+}
+
+#close-form:hover, #close-edit-form:hover{
+  color: red;
+  cursor: pointer;
+}
+
+/* ESTILOS DE LOS INPUTS */
+.inputs, .form-msg{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.inputs div{
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.form-msg{
+  width: 90%;
+  align-items: flex-start;
+}
+
+label{
+  margin-top: -15px;
+  font-size: 0.8em;
+  color: red;
+  text-align: left;
+}
+
+.input, .textarea, .input-select, .form-btn, #categoria, .formedit-btn, #categoriaEdit{
+  width: 95%;
+  padding: 2%;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5em;
+  color: white;
+  background-color: rgba(0,0,0,0);
+  border: 3px solid rgb(40, 40, 40);
+  border-radius: 10px;
+  outline: none;
+}
+
+#categoriaEdit{
+  width: 90%;
+  margin-top: 5%;
+}
+
+#categoria{
+  width: 90%;
+  margin-top: 5%;
+}
+
+#categoria option{
+  color: black;
+}
+
+.input{
+  margin-bottom: 2%;
+}
+
+.form-msg{
+  height: 60%;
+}
+
+.textarea{
+  height: 100%;
+  resize:none;
+}
+
+.input:focus, .input-select:focus, .textarea:focus{
+  border: 3px solid rgba(253, 255, 133, 0.8);
+}
+
+/* ESTILOS BOTON ENVIAR FORM */
+.form-btn, .formedit-btn{
+  width: 100%;
+  margin-top: 5%;
+  padding: 2%;
+  font-weight: bold;
+  color: white;
+  border: none;
+  transition: 0.5s;
+}
+
+.form-btn:hover, .formedit-btn:hover{
+  color: rgb(253, 213, 44);
+  background-color: white;
+  border-radius: 0px 0px 15px 15px;
+  cursor: pointer;
+}
+
+
