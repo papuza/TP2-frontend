@@ -5,7 +5,7 @@ const fetchItems = async () => {
   const $list = document.querySelector("#list-museos")
   $list.innerHTML = null
   try {
-    const response = await fetch('http://localhost:3000/markers');
+    const response = await fetch('https://tp-2-backend-taupe.vercel.app/markers');
     const json = await response.json();
     json.forEach((marker) => { /*Creo toda la función que me trae los datos en el fetch*/
 
@@ -56,7 +56,7 @@ const fetchItems = async () => {
 //FUNCION PARA ELIMINAR MARKER
 const deleteItem = async (id) => {
   try {
-    const response = await fetch(`http://localhost:3000/markers/${id}`, {
+    const response = await fetch(`https://tp-2-backend-taupe.vercel.app/markers/${id}`, {
       method: 'DELETE'
     })
     const data = await response.json()
@@ -70,7 +70,7 @@ const deleteItem = async (id) => {
 //FUNCION PARA EDITAR MARKER
 const updateItem = async (id, data) => {
   try {
-    const response = await fetch(`http://localhost:3000/markers/${id}`, {
+    const response = await fetch(`https://tp-2-backend-taupe.vercel.app/markers/${id}`, {
       method: 'PUT',
       headers: new Headers({ 'content-type': 'application/x-www-form-urlencoded' }),
       body: data
@@ -85,7 +85,7 @@ const updateItem = async (id, data) => {
 //FUNCION PARA RELLENAR FORMULARIO DE EDIT
 const fillEditForm = async (id) => {
   try {
-    const response = await fetch(`http://localhost:3000/markers/${id}`)
+    const response = await fetch(`https://tp-2-backend-taupe.vercel.app/markers/${id}`)
     const data = await response.json();
     const formEditLayout = document.querySelector("#form-edit-item");
     formEditLayout.classList.remove("ocultar");
